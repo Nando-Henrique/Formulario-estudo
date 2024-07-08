@@ -1,0 +1,152 @@
+/**Reset**/
+* {
+    font-family: Poppins;
+
+}
+
+img{
+    position: absolute;
+}
+body {
+    background-color: #f0ebf8;
+    
+}
+
+h1,h2,h3,h4 {
+    color: #333;
+}
+
+#title-form-header{
+    font-weight: 700;
+    font-size: 20px;
+    color: #673ab7;
+    border-bottom: 2px solid #673ab7;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 70px;
+    line-height: 70px;
+    
+    
+}
+
+h4 {
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+p, label {
+    color: #444;
+    
+}
+
+label {
+    font-weight: 500;
+}
+
+input {
+    padding: 5px;
+}
+
+input[type=text],
+input[type=number],
+input[type=date],
+input[type=file] {
+    width: 400px;
+    border-radius: 5px;
+    border-color: #cac6c6;
+    line-height: 1.5;
+}
+
+textarea {
+    padding: 10px 5px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+#box-textarea{
+    height: 100px;
+}
+
+/** Page Header**/
+
+.container-header {
+    height: 200px;
+    display: block;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    background-color: #673ab7;
+}
+
+img{
+    height: 200px;
+    width: 86%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/** Form Container **/
+
+.form-container {
+    background-color: #fdfdfd;
+    width: 60%;
+    margin: 0 auto; /**Isso faz com que centralize**/
+    position: relative; /** Isso faz com que ele seja a referencia, caso haja algum elemento absoluto dentro dele.**/
+    top: -30px;
+}
+
+/** form header **/
+
+.form-header {
+    
+    width: 45px;
+    text-align: center;
+
+}
+
+/** form-body **/
+
+.form-body {
+    padding: 30px;
+
+
+}
+
+.form-title {
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+
+.form-body h1 {
+    font-weight: 300;
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+
+.form-body p {
+    margin-bottom: 20px;
+    
+}
+
+.required-field {
+    color: #d80835;
+}
+
+.box-input {
+    margin-bottom: 35px;
+
+}
+
+.block {
+    display: block;
+}
+ 
+.optional-box {
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
